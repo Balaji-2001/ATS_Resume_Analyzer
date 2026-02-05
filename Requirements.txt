@@ -1,0 +1,13 @@
+langchain
+langchain-core
+langchain-community
+PyPDF2
+streamlit
+pdfplumber
+sentence-transformers
+faiss-cpu
+scikit-learn
+numpy
+transformers
+accelerate
+regex
