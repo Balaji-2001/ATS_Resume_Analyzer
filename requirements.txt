@@ -4,5 +4,5 @@ langchain-community
 pdfplumber
 sentence-transformers
 faiss-cpu
-sckit-learn
+scikit-learn
 numpy
