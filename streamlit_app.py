@@ -1,10 +1,13 @@
 import streamlit as st
 import pdfplumber
-import docx
 import io
+import re
+from langchain_text_splitters import RecursiveCharacterTextSplitter
+from langchain_community.embeddings import HuggingFaceEmbeddings
+from langchain_community.vectorstores import FAISS, Chroma
+from langchain_core.documents import Document 
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
-import re
 
 st.set_page_config(layout="wide")
 st.title("AI Resume Screener")
@@ -133,4 +136,5 @@ if st.button("Screen Resume", type="primary", use_container_width=True):
         
         st.download_button("💾 Download Report", f"Score: {results['score']}", "report.txt")
     else:
+
         st.error("Upload resume and add job description")
