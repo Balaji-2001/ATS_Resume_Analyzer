@@ -1,8 +1,8 @@
-streamlit==1.38.0
-langchain-text-splitter==0.3.1
-langchain-community==0.2.16
-pdfplumber==0.11.4
-sentence-transformer==3.0.1
-faiss-cpu==1.8.0
-sckit-learn==1.5.1
-numpy==1.26.4
+streamlit
+langchain-text-splitter
+langchain-community
+pdfplumber
+sentence-transformer
+faiss-cpu
+sckit-learn
+numpy
