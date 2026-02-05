@@ -1,5 +1,5 @@
 streamlit
-langchain-text-splitter
+langchain-text-splitters
 langchain-community
 pdfplumber
 sentence-transformer
